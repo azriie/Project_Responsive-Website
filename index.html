@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike redesign</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"></a>
+        <img src="img/img3-logo.webp" alt="logo"  width="100vw" height="90vw" class="d-inline-block align-text-top">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Icons -->
+        <div class="order-lg-2 nav-btns">
+            <button type="button" class="btn position-relative">
+                <i class="fa fa-shopping-cart"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+            </button>
+            <button type="button" class="btn position-relative">
+                <i class="fa fa-heart"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">3</span>
+            </button>
+            <button type="button" class="btn position-relative">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+
+        <!-- Nav-item -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link active text-uppercase" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase text-dark" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Men</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Clothing</a></li>
+                        <li><a class="dropdown-item" href="#">Shoes</a></li>
+                        <li><a class="dropdown-item" href="#">Accessories and Equipment</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase text-dark" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Women</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Clothing</a></li>
+                        <li><a class="dropdown-item" href="#">Shoes</a></li>
+                        <li><a class="dropdown-item" href="#">Accessories and Equipment</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-uppercase text-dark" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sneakers
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Collection</a></li>
+                        <li><a class="dropdown-item" href="#">New Arrival</a></li>
+                        <li><a class="dropdown-item" href="#">Sale</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<img src="img/hero-image.jpg" class="img-fluid"
+
+<!-- Header -->
+<header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px";>
+   <div class="container h-100 d-flex align-items-center">
+     <div class="text-center carousel-item active">
+         <h2 class="text-capitalize">Best Collection</h2>
+         <h1 class="text-uppercase py-2 fw-bolds">new arrivals</h1>
+         <a href="#" class="btn btn-dark mt-3 text-uppercase">shop now</a>
+     </div>
+     <div class="text-center carousel-item">
+         <h2 class="text-capitalize">Enjoy 13% Off</h2>
+         <h1 class="text-uppercase py-2 fw-bolds">New Style On Sale</h1>
+         <a href="#" class="btn btn-dark mt-3 text-uppercase">buy now</a>
+     </div>
+     </div>
+     </header>
+
+
+
+<!--  Sport  -->
+<section id="sport" class="p-5">
+  <h2 class="text-center">Sports</h2>
+  <div class="row gx-5 gy-5 mb-5 aos-init aos-animate" data-aos="fade-right">
+    <div class="col-md-4">
+      <div>
+        <img
+          src="img/running-img.webp"
+          class="card-img-top"
+          alt="running"
+        />
+        <div class="card-body">
+          <a href="#" class="btn btn-dark d-grid mx-auto" target="_blank">
+            Running
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div>
+        <img
+          src="img/basketball-img.jpg"
+          class="card-img-top"
+          alt="basketball"
+        />
+        <div class="card-body">
+          <a href="#" class="btn btn-dark d-grid mx-auto" target="_blank">
+            Basketball
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div>
+        <img
+          src="img/soccer-img.webp"
+          class="card-img-top"
+          alt="football"
+        />
+        <div class="card-body">
+          <a href="#" class="btn btn-dark d-grid mx-auto" target="_blank">
+            Football
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- Brand-->
+
+<section id="sport" class="p-5">
+  <h2 class="text-center">Sports</h2>
+  <div class="row gx-5 gy-5 mb-5 aos-init aos-animate" data-aos="fade-left">
+    <div class="col-md-4">
+      <div>
+        <img
+          src="img/nike-sportswear.webp"
+          class="card-img-top"
+          alt="sportswear"
+        />
+        <div class="card-body">
+          <a href="#" class="btn btn-dark d-grid mx-auto" target="_blank">
+            Sportswear
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div>
+        <img
+          src="img/Jordan1-img.webp"
+          class="card-img-top"
+          alt="Jordan"
+        />
+        <div class="card-body">
+          <a href="#" class="btn btn-dark d-grid mx-auto" target="_blank">
+            Jordan
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div>
+        <img
+          src="img/ACG-img.webp"
+          class="card-img-top"
+          alt="nikeACG"
+        />
+        <div class="card-body">
+          <a href="#" class="btn btn-dark d-grid mx-auto" target="_blank">
+            Nike ACG
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
